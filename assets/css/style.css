@@ -911,6 +911,13 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features{
+  background: url("../img/hero-vive-conexion.jpg");
+  background-size: cover;
+  background-position-y:top;
+  margin-top: 18px;
+}
+
 .features .icon-box {
   display: flex;
   align-items: center;
@@ -1048,7 +1055,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/cta-bg.jpg") no-repeat;
+  background: url("../img/DSC03936.JPG") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
