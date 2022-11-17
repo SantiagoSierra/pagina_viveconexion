@@ -1748,4 +1748,7 @@ section {
 #div-modelo-servicio p, h3{
   color: white;
 }
+#pricing li{
+font-size: 15px;
+}
 
