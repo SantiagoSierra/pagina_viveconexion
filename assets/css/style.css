@@ -430,6 +430,17 @@ h6 {
   background-position-y:65px;
 }
 
+@media(max-width:720px){
+  #hero {
+    background: url("../img/hero-bg.jpg");
+    background: rgba(2, 5, 161, 0.91);
+  }
+
+  #marca-vive{
+    object-fit: contain !important;
+  }
+}
+
 #hero:before {
   content: "";
   /*background: rgba(2, 5, 161, 0.91);*/
