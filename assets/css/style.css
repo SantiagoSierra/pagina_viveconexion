@@ -422,15 +422,17 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/hero-vive-conexion-2.jpg");
   position: relative;
   padding: 120px 0 0 0;
   background-position: center;
+  background-size: cover;
+  background-position-y:65px;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  /*background: rgba(2, 5, 161, 0.91);*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1736,3 +1738,14 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+#div-modelo-servicio{
+  background: url("../img/WALLPAPERS VIVE-03.jpg");
+  background-size: cover;
+  background-position-y: -50px;
+}
+
+#div-modelo-servicio p, h3{
+  color: white;
+}
+
